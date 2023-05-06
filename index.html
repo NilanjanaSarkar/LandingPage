@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <ul class="navitem">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="col txt1">
+                <span class="toptxt">Let's</span>
+                <h1>Eat  <span class="multitxt">KOREAN FOOD</span></h1>
+                <p>Lorem ipsum dolor amet consectetur adipisicing.</p>
+                <div class="btn">
+                    <button>ORDER NOW</button>
+                </div>  
+            </div>
+            <div class="col txt2">
+                <div class="imgbx1">
+                    <img src="splash-removebg-preview.png" id="splash">
+                </div>   
+                <div class="imgbx2">
+                    <img src="food_img-removebg-preview.png" alt="" srcset="">
+                </div>    
+        
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multitxt",{
+            strings : ["KOREAN FOOD","한국 음식","맛있는 한국 요리"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed: 80,
+            backDelay: 1500
+        })
+    </script>
+
+
+</body>
+</html>
